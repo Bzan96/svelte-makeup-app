@@ -1,0 +1,23 @@
+body {
+	--primary: #3c0045;
+	--light-background: #eda091;
+	--dark-background: #cc7260;
+	--white: #fff;
+	background: repeating-linear-gradient(
+		315deg,
+		var(--light-background) 50px,
+		var(--dark-background) 200px
+	);
+	min-height: 100vh;
+	margin: 0;
+	padding: 0;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+box-sizing::before,
+box-sizing::after {
+	box-sizing: inherit;
+}
